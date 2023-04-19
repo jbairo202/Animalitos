@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Animalitos</string>
+    <string name="action_settings">Settings</string>
+	<string-array name="rol">
+		<item>Seleccionar su rol</item>
+		<item>Administrador</item>
+		<item>Medico veterinario</item>
+		<item>Vendedor</item>
+		<item>Dueño de mascota</item>
+	</string-array>
+
+
+
+</resources>
