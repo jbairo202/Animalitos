@@ -37,7 +37,6 @@ namespace Animalitos
             btnRegistrarUsuario.Click += BtnRegistrarUsuario_Click;
             btnYaTienesCuenta.Click += BtnYaTienesCuenta_Click;
 
-            Spinner rolspinner = FindViewById<Spinner>(Resource.Id.rolSpinner);
 
             rolspinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spinner_ItemSelected);
             var adapter = ArrayAdapter.CreateFromResource(
@@ -85,8 +84,5 @@ namespace Animalitos
                 Toast.MakeText(this, ex.ToString(), ToastLength.Short).Show();
             }
         }
-
-
-
     }
 }
